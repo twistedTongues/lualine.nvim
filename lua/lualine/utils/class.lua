@@ -22,11 +22,9 @@ function Object:extend()
   return cls
 end
 
--- luacheck: push no unused args
 function Object:__tostring()
   return 'Object'
 end
--- luacheck: pop
 
 ---Creates a new object
 function Object:new(...)
